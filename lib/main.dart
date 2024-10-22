@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:list_bloc_cubit/core/list_itens_cubit.dart';
-import 'package:list_bloc_cubit/data/item_dao.dart';
-import 'package:list_bloc_cubit/screens/initial_screen.dart';
+import 'package:list_bloc_cubit/modules/lista/cubits/list_itens_cubit.dart';
+import 'package:list_bloc_cubit/modules/lista/repository/item_dao.dart';
+import 'package:list_bloc_cubit/modules/lista/screens/initial_screen.dart';
 
 void main() {
   runApp(const MyApp());
