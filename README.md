@@ -1,6 +1,6 @@
 # list_bloc_cubit
 
-A new Flutter project.
+A small project that saves a list of Strings in a local database, using the sqflite package. The focus of the project is to learn state management with BloC and Cubit.
 
 ## Getting Started
 
